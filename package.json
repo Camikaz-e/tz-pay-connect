@@ -1,0 +1,24 @@
+{
+  "name": "tz-pay-connect",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Tanzanian Unified Mobile Money SDK - Monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "dev": "pnpm -r dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "prettier": "^3.3.2",
+    "eslint": "^9.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
